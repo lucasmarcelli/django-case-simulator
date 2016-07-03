@@ -7,8 +7,11 @@ We decided to make a legit one that gets prices and real stats daily and updates
 get python3 and virtualenv
 
 `git clone https://github.com/lucasmarcelli/django-case-simulator/`
+
 `cd django-case-simulator`
+
 `virtualenv env`
+
 `source env/bin/activate`
 
 You must do `source env/bin/activate` in order to enter the virtualenv when you are developing.
@@ -16,11 +19,14 @@ You must do `source env/bin/activate` in order to enter the virtualenv when you 
 Then
 
 `pip install -r "requirements.txt"`
+
 `cd base`
 
 then
 `python manage.py makemigrations`
+
 `python manage.py migrate`
+
 `python manage.py runserver` starts the server.
 
 go to localhost:8000
